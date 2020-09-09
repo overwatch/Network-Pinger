@@ -3,6 +3,7 @@
 # Program name: pingall.sh
 echo -e "\033[1;95m------------------------"
 echo "   InfoSec Community"
+echo -e "  copyright@rootnvnj"
 echo -e "------------------------ \033[0m "
 
 #spinner
@@ -13,7 +14,7 @@ spinner ()
     i=0
     while ((i <100)); do
         n=$((i*barlength / 100))
-        printf "\033[0;92m\r%-${bar}s\e[00m" "${bar:0:n}"
+        printf "\033[1;95m\r%-${bar}s\e[00m" "${bar:0:n}"
         ((i += RANDOM%5+2))
         sleep 0.01
         printf " "
@@ -22,10 +23,10 @@ spinner ()
 }
 
 #Date
-echo -e "\033[1;93m"
+printf "\033[1;93m"
 now="$(date)"
 echo "Date: "$now""
-echo -e "\033[0m "
+printf "\033[0m"
 
 #calling spinner
 echo -e "\033[1;94m========================================"
