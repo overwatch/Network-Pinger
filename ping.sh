@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # Program name: pingall.sh
-echo -e "\033[1;95m------------------------"
-echo "   InfoSec Community"
-echo -e "  copyright@rootnvnj"
-echo -e "------------------------ \033[0m "
+echo -e "\033[1;95m-----------------------------------------"
+echo "        + InfoSec Community +"
+echo -e "  visitme@https://github.com/rootnvnj"
+echo -e "  Website:https://rootnvnj.github.io"
+echo -e "----------------------------------------- \033[0m "
 
 #spinner
 spinner ()
