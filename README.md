@@ -8,5 +8,7 @@ The tools is developed in Bash script which is used to ping  N-number of targets
 chmod +x bping.sh
 ./bping.sh <target_file>
 ```
-![img]()
+
+## Screenshot
+![img](bping.png)
 
