@@ -5,7 +5,8 @@ The tools is developed in Bash script which is used to ping  N-number of targets
 - Download the script into your computer.
 - Ensure your target file is in place and run 
 ```sh
-chmod +x ping.sh
-./ping.sh <target_file>
+chmod +x bulk-ping.sh
+./bulk-ping.sh <target_file>
 ```
-- ***voila!*** 😎
+![img]()
+
