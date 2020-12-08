@@ -2,11 +2,11 @@
 
 # Program name: pingall.sh
 echo -e "\033[1;95m-----------------------------------------"
-echo "        + InfoSec Community +"
-echo -e "  visitme@https://github.com/rootnvnj"
-echo -e "  Website:https://rootnvnj.github.io"
+echo "       + The Village Hacker Community +"
+echo -e "  visitme@https://github.com/thevillagehacker"
+echo -e "  Website:https://thevillagehacker.github.io"
 echo -e "----------------------------------------- \033[0m "
-
+file ="$(1)"
 #spinner
 spinner ()
 {
@@ -37,7 +37,7 @@ spinner
 sleep 0.01
 
 #check file and get data to ping
-cat list.txt |  while read output
+cat $1 |  while read output
 do
     ping -c 1 "$output" > /dev/null
     if [ $? -eq 0 ]; then
